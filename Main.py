@@ -6,7 +6,6 @@ def download():
     with open( FT,"wb") as f:
         f.write(requests.get(DT).content)
 
-
 win = Tk()
 DL = Label(win, text="download link")
 DL.pack()
